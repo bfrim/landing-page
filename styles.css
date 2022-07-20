@@ -10,7 +10,7 @@
 	width: 100%;
 	height: 75px;
 	display: block;
-	background-color: #1f2937;
+	background-color: #000000;
 }
 
 .inner-header {
@@ -22,16 +22,14 @@
 
 .logo-container {
 	height: 100%;
-	display: table;
+	display: flex;
+	align-items: center;
 	float: left;
 }
 
-.logo-container h1 {
-	color: white;
-	height: 100%;
-	display: table-cell;
-	vertical-align: middle;
-	font-size: 32px;
+.logo-container img {
+	height: 40%;
+	width: 250px;
 }
 
 .navigation {
@@ -46,10 +44,56 @@
 	padding: 0px 20px;
 }
 
+.navigation a:last-child {
+	padding-right: 0;
+}
+
 .navigation a li {
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
 	color: white;
 	font-size: 16px;
+}
+
+.hero {
+	width: 100%;
+	height: 600px;
+	display: block;
+	background-image: url("./images/penguins-blurred.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.inner-hero {
+	width: 1000px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.hero-text {
+	width: 450px;
+	color: white;
+}
+
+.hero-text h1 {
+	font-size: 45px;
+	font-weight: 900px;
+	padding-bottom: 10px;
+}
+
+.hero-text h4 {
+	color: #c2c2c2;
+	font-weight: 400px;
+}
+
+.hero-image img {
+	width: 450px;
+	height: 100%;
+	border-radius: 20px;
+	box-shadow: 5px 5px 15px black;
 }
