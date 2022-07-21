@@ -22,7 +22,8 @@ html {
 .inner-header {
 	width: 1200px;
 	height: 100%;
-	display: block;
+	display: flex;
+	justify-content: space-between;
 	margin: 0 auto;
 }
 
@@ -47,38 +48,32 @@ html {
 .navigation {
 	float: right;
 	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.navigation a {
-	height: 100%;
-	display: table;
-	float: left;
-	padding: 0px 30px;
-}
-
-.navigation a:last-child {
-	padding-right: 0;
-}
-
-.navigation a li {
-	display: table-cell;
-	vertical-align: middle;
-	height: 100%;
+.nav-btn {
+	padding: 17px 35px;
+	border: none;
+	background: transparent;
 	color: white;
+	border-radius: 20px;
+	cursor: pointer;
 	font-size: 16px;
-}
-
-.navigation li:hover {
-	color: #3882f6;
 	transition-timing-function: ease-in;
 	transition: 0.25s;
+}
+
+.nav-btn:hover {
+	color: #3882fb;
 }
 
 .hero {
 	width: 100%;
 	height: 100vh;
 	display: block;
-	background-image: url("./images/planet.jpg");
+	background-image: url("./ressources/bg.jpg");
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -133,7 +128,6 @@ html {
 }
 
 .btn-1:hover {
-
 	background: white;
 	color: black;
 }
