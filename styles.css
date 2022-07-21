@@ -194,6 +194,11 @@ html {
 	width: 1200px;
 	height: 100%;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #1f2937;
+	font-size: 20px;
+	font-weight: 900px;
 }
 
 .contact {
@@ -209,4 +214,9 @@ html {
 	width: 1200px;
 	height: 100%;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #1f2937;
+	font-size: 20px;
+	font-weight: 900px;
 }
