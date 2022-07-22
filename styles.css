@@ -3,11 +3,11 @@
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;	
+  font-family: 'Raleway', sans-serif;
 }
 
 .header {
@@ -93,6 +93,7 @@ html {
 	width: 400px;
 	color: white;
 	text-shadow: 0px 0px 5px black;
+	font-family: 'Roboto', sans-serif;
 }
 
 .hero-text h1 {
@@ -110,7 +111,7 @@ html {
 	width: 450px;
 	height: 100%;
 	border-radius: 20px;
-	box-shadow: 5px 5px 15px black;
+	box-shadow: 0px 0px 15px #0091ff;
 }
 
 .btn-1 {
@@ -137,7 +138,7 @@ html {
 	color: black;
 }
 
-.about {
+.products {
 	width: 100%;
 	height: 700px;
 	background-color: white;
@@ -146,7 +147,7 @@ html {
 	scroll-margin-top: 75px;
 }
 
-.inner-about {
+.inner-products {
 	width: 1200px;
 	height: 100%;
 	display: flex;
@@ -158,8 +159,8 @@ html {
 	font-weight: 900px;
 }
 
-.about-images {
-	width: 1100px;
+.products-images {
+	width: 100%;
 	height: 200px;
 	display: flex;
 	justify-content: space-evenly;
@@ -168,27 +169,72 @@ html {
 
 .img {
 	width: 200px;
-	height: 100%;
-	border: 5px solid #3882f6;
-	border-radius: 20px;
+	height: 200px;
+	border: 5px solid white;
+	border-radius: 30px;
 	transition-timing-function: ease-in;
 	transition: 0.25s;
+	box-shadow: 5px 5px 15px black;
+}
+
+.img-1 {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img:hover {
+	width: 220px;
+	height: 220px
+}
+
+.one {
+	background-image: url("./ressources/car-1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.two {
+	background-image: url("./ressources/watch.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.three {
+	background-image: url("./ressources/laptop.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.four {
+	background-image: url("./ressources/phone.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .faq {
 	width: 100%;
 	height: 700px;
-	background-color: #e5e7eb;
+	background-image: url("./ressources/bg-2.jpg");
 	display: flex;
 	justify-content: center;
 	scroll-margin-top: 75px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .inner-faq {
 	width: 1200px;
 	height: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 	color: #1f2937;
 	font-size: 20px;
@@ -213,4 +259,27 @@ html {
 	color: #1f2937;
 	font-size: 20px;
 	font-weight: 900px;
+}
+
+.footer {
+	width: 100%;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black
+}
+
+.inner-footer {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #f9f9f9;
+	font-size: 10px;
+}
+
+.inner-footer a {
+	color: #3882f6;
 }
