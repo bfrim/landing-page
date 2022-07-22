@@ -191,14 +191,14 @@ html {
 }
 
 .one {
-	background-image: url("./ressources/car-1.jpg");
+	background-image: url("./ressources/shoes.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .two {
-	background-image: url("./ressources/watch.jpg");
+	background-image: url("./ressources/chair.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -221,7 +221,7 @@ html {
 .faq {
 	width: 100%;
 	height: 700px;
-	background-image: url("./ressources/bg-2.jpg");
+	background-image: url("./ressources/table.jpg");
 	display: flex;
 	justify-content: center;
 	scroll-margin-top: 75px;
@@ -277,7 +277,8 @@ html {
 	align-items: center;
 	justify-content: center;
 	color: #f9f9f9;
-	font-size: 10px;
+	font-size: 8px;
+	text-align: center;
 }
 
 .inner-footer a {
