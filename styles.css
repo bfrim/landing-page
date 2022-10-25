@@ -5,6 +5,30 @@
 	text-decoration: none;
 }
 
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #000000; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(54, 54, 54); 
+	border-radius: 30px;
+	border: 2px solid transparent;
+	background-clip: padding-box;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(65, 65, 65); 
+	border: 0;
+}
+
 html {
   scroll-behavior: smooth;	
   font-family: 'Raleway', sans-serif;
@@ -16,7 +40,8 @@ html {
 	width: 100%;
 	height: 75px;
 	display: block;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(0, 0, 0, 0.8);
+	backdrop-filter: blur(20px);
 }
 
 .inner-header {
@@ -111,8 +136,8 @@ html {
 .hero-image img {
 	width: 450px;
 	height: 100%;
-	border-radius: 20px;
-	box-shadow: 0 0 15px white;
+	border-radius: 30px;
+	border: 3px solid white;
 }
 
 .btn-1 {
@@ -120,7 +145,7 @@ html {
 	border: none;
 	background: #3882f6;
 	color: white;
-	border-radius: 20px;
+	border-radius: 30px;
 	cursor: pointer;
 	font-size: 20px;
 	margin-top: 20px;
@@ -142,7 +167,7 @@ html {
 .products {
 	width: 100%;
 	height: 700px;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	display: flex;
 	justify-content: center;
 	scroll-margin-top: 75px;
@@ -171,11 +196,11 @@ html {
 .img {
 	width: 200px;
 	height: 200px;
-	border: 5px solid white;
+	border: 3px solid white;
 	border-radius: 30px;
 	transition-timing-function: ease-in;
-	transition: 0.25s;
-	box-shadow: 5px 5px 15px black;
+	transition: 0.15s;
+	box-shadow: 0px 3px 15px black;
 }
 
 .img-1 {
@@ -188,7 +213,8 @@ html {
 
 .img:hover {
 	width: 220px;
-	height: 220px
+	height: 220px;
+	cursor: pointer;
 }
 
 .one {
