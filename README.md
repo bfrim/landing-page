@@ -1,6 +1,6 @@
 # Landing Page
 
-HTML and CSS practice page
+HTML and CSS practice page, fictional company
 
 ## Roadmap
 
